@@ -1,0 +1,53 @@
+#carousell-div {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+#carousell-slides {
+  display: flex;
+  transition: transform 100ms ease-in-out;
+  padding-left: 30vw;
+}
+#carousell-left-btn,
+#carousell-right-btn {
+  border: none;
+  background-color: rgb(152, 152, 152);
+  color: black;
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 100ms ease-in-out;
+  position: absolute;
+  top: 45%;
+}
+#carousell-left-btn {
+  left: 50px;
+}
+
+#carousell-right-btn {
+  right: 50px;
+}
+
+.active-slide {
+  opacity: 1;
+}
+
+.hidden-image {
+  opacity: 0.5;
+  transform: scale(0.9);
+}
+
+#carousell-left-btn:hover,
+#carousell-right-btn:hover {
+  transform: scale(1.1);
+}
+
+#carousell-div .carousell-img {
+  height: auto;
+  max-height: auto;
+  width: 40vw;
+  transition: scale 100ms ease-in-out, transform 100ms ease-in-out;
+}

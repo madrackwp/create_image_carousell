@@ -1,0 +1,26 @@
+{
+  "name": "create_image_carousell",
+  "version": "1.0.0",
+  "description": "Creates an image carousell",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "css/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madrackwp/create_image_carousell.git"
+  },
+  "keywords": [
+    "image",
+    "carousell"
+  ],
+  "author": "madrackwp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madrackwp/create_image_carousell/issues"
+  },
+  "homepage": "https://github.com/madrackwp/create_image_carousell#readme"
+}
