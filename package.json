@@ -1,5 +1,5 @@
 {
-  "name": "create_image_carousell",
+  "name": "@madrackwp/create_image_carousell",
   "version": "1.0.0",
   "description": "Creates an image carousell",
   "main": "index.js",
